@@ -25,7 +25,7 @@ def square(side: str) -> tuple:
     """
     perimeter = int((float(side) * 4))
     s_square = int((float(side) ** 2))
-    diagonal = int((2*float(side)**2)**.5)
+    diagonal = int((2 * float(side) ** 2) ** .5)
     return perimeter, s_square, diagonal
 
 
